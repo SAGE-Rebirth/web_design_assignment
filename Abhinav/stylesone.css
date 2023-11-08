@@ -1,0 +1,15 @@
+body {
+  background: linear-gradient(to right, #fbc2eb, #a6c1ee); 
+}
+
+input[type="submit"] {
+  background: linear-gradient(to bottom, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+  border: 1px solid #e186a7;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  color: #664e64;
+}
+
+input[type="submit"]:hover {
+  background: linear-gradient(to bottom, #fad0c4 0%, #ff9a9e 99%, #ff9a9e 100%); 
+}

@@ -1,10 +1,14 @@
-/* Style the form */
 form {
   max-width: 500px;
   margin: 0 auto;
   padding: 20px;
-  border: 1px solid #ccc;
+  border: 2px solid black;
+  /*border: 1px solid #ccc;
   border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);*/
+  border: 3px solid black;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.5);
 }
 
 /* Style the input fields */
@@ -34,4 +38,20 @@ input[type="submit"] {
 /* Add hover effect to submit button */
 input[type="submit"]:hover {
   background-color: #45a049;
+}
+
+body {
+    background: linear-gradient(to right, #fbc2eb, #a6c1ee); 
+  }
+  
+input[type="submit"] {
+    background: linear-gradient(to bottom, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+    border: 1px solid #e186a7;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    color: #664e64;
+}
+  
+input[type="submit"]:hover {
+    background: linear-gradient(to bottom, #fad0c4 0%, #ff9a9e 99%, #ff9a9e 100%); 
 }
